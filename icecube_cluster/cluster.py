@@ -216,7 +216,7 @@ class ClusterSubmitter(object) :
         #
 
         # Define IceCube clusters (need this later)
-        icecube_clusters = { "icecube_npx" : "submit-1.icecube.wisc.edu", "icecube_grid" : "sub-1.icecube.wisc.edu", "icecube_osg" : "sub-2.icecube.wisc.edu" }
+        icecube_clusters = { "icecube_npx" : "npx-submitter.icecube.wisc.edu", "icecube_grid" : "sub-1.icecube.wisc.edu", "icecube_osg" : "sub-2.icecube.wisc.edu" }
 
         # Define DESY submit nodes
         desy_submit_nodes = {
